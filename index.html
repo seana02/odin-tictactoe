@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Tic Tac Toe</title>
   </head>
-  <body></body>
+  <body>
+    <div class="toprow"></div>
+    <div class="players">
+      <button class="edit-names">Change</button>
+      <div class="player">O pl1</div>
+      <div class="player">X pl2</div>
+    </div>
+    <div class="game-board">
+      <div class="cell top-row left-column"></div>
+      <div class="cell top-row mid-column"></div>
+      <div class="cell top-row right-column"></div>
+      <div class="cell mid-row left-column"></div>
+      <div class="cell mid-row mid-column"></div>
+      <div class="cell mid-row right-column"></div>
+      <div class="cell bottom-row left-column"></div>
+      <div class="cell bottom-row mid-column"></div>
+      <div class="cell bottom-row right-column"></div>
+    </div>
+    <div class="status"></div>
+  </body>
 </html>
